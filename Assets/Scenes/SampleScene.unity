@@ -776,6 +776,18 @@ PrefabInstance:
       value: Christmas-Ball
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d7ec3986b32d9544ebfdc035c7d5f1ca, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.16031
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d7ec3986b32d9544ebfdc035c7d5f1ca, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.16031
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d7ec3986b32d9544ebfdc035c7d5f1ca, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.16031
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d7ec3986b32d9544ebfdc035c7d5f1ca, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.2585058
       objectReference: {fileID: 0}

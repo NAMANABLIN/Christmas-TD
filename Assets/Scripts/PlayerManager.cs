@@ -1,19 +1,56 @@
+using System;
 using UnityEngine;
 
-public class PlayerMove : MonoBehaviour
+public class PlayerManager : MonoBehaviour
 {
+    public int health = 100;
     [SerializeField] private float speed = 2f;
-    private float startSpeed;
-    [SerializeField] private Rigidbody rb;
-    [SerializeField] private float jumpForce = 15f;
-    [SerializeField] private bool isGround = false;
+    private float _startSpeed;
+    private float _weapon;
+    private float _scrollSpeed = 10.0f; // Скорость прокрутки колесика мыши
+    private int _currentValue = 1; // Текущее значение
+    
+    [SerializeField] private Rigidbody _rb;
 
     private void Awake()
     {
-        startSpeed = speed;
+        _startSpeed = speed;
     }
 
-    private void Update()
+    void Update()
+    {
+        // Получаем значение прокрутки колесика мыши
+        float scrollValue = Input.GetAxis("Mouse ScrollWheel");
+
+        // Изменяем текущее значение в соответствии с прокруткой
+        _currentValue += Convert.ToInt16(scrollValue * _scrollSpeed);
+        if (_currentValue < 1)
+        {
+            _currentValue = 3;
+        }
+
+        if (_currentValue > 3)
+        {
+            _currentValue = 1;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            Debug.Log(1);
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            Debug.Log(2);
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            Debug.Log(3);
+        }
+
+        // Debug.Log("Current Value: " + _currentValue);
+    }
+
+    private void FixedUpdate()
     {
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
@@ -21,26 +58,13 @@ public class PlayerMove : MonoBehaviour
         }
         if (Input.GetKeyUp(KeyCode.LeftShift))
         {
-            speed = startSpeed;
-        }
-        if (Input.GetKeyDown(KeyCode.Space) && isGround == true)
-        {
-            rb.AddForce(jumpForce * Vector3.up, ForceMode.Impulse);
-            isGround = false;
+            speed = _startSpeed;
         }
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
 
         Vector3 move = new Vector3(x, 0f, z);
-
-        transform.Translate(move * speed * Time.deltaTime);
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Ground"))
-        {
-            isGround = true;
-        }
+        
+        _rb.velocity = move*speed*Time.fixedDeltaTime;
     }
 }

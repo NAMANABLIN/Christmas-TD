@@ -4,14 +4,16 @@ using UnityEngine;
 
 public class BaseWeapon : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    
+    void Update()
     {
-        
+        if (Input.GetMouseButtonDown(-1))
+        {
+            Shoot();
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public virtual void Shoot()
     {
         
     }

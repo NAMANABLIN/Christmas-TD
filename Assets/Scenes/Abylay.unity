@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -138,21 +138,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4149392523460021751, guid: 668caeef3f091244986846c489fc2dd6,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.22218
-      objectReference: {fileID: 0}
-    - target: {fileID: 4149392523460021751, guid: 668caeef3f091244986846c489fc2dd6,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.22218
-      objectReference: {fileID: 0}
-    - target: {fileID: 4149392523460021751, guid: 668caeef3f091244986846c489fc2dd6,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.22218
-      objectReference: {fileID: 0}
-    - target: {fileID: 4149392523460021751, guid: 668caeef3f091244986846c489fc2dd6,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -201,92 +186,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4819795065965660561, guid: 668caeef3f091244986846c489fc2dd6,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.146743
-      objectReference: {fileID: 0}
-    - target: {fileID: 4819795065965660561, guid: 668caeef3f091244986846c489fc2dd6,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.227682
-      objectReference: {fileID: 0}
-    - target: {fileID: 4819795065965660561, guid: 668caeef3f091244986846c489fc2dd6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.1328504
-      objectReference: {fileID: 0}
-    - target: {fileID: 6003969238883749748, guid: 668caeef3f091244986846c489fc2dd6,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.508392
-      objectReference: {fileID: 0}
-    - target: {fileID: 6003969238883749748, guid: 668caeef3f091244986846c489fc2dd6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.3347911
-      objectReference: {fileID: 0}
-    - target: {fileID: 6842420401410822047, guid: 668caeef3f091244986846c489fc2dd6,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.09897006
-      objectReference: {fileID: 0}
-    - target: {fileID: 6842420401410822047, guid: 668caeef3f091244986846c489fc2dd6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.02617604
-      objectReference: {fileID: 0}
-    - target: {fileID: 8876394315480710914, guid: 668caeef3f091244986846c489fc2dd6,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.174635
-      objectReference: {fileID: 0}
-    - target: {fileID: 8876394315480710914, guid: 668caeef3f091244986846c489fc2dd6,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.374526
-      objectReference: {fileID: 0}
-    - target: {fileID: 8876394315480710914, guid: 668caeef3f091244986846c489fc2dd6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.1641438
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3665448684949034829, guid: 668caeef3f091244986846c489fc2dd6,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 482589774}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 668caeef3f091244986846c489fc2dd6, type: 3}
---- !u!1 &482589773 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3665448684949034829, guid: 668caeef3f091244986846c489fc2dd6,
-    type: 3}
-  m_PrefabInstance: {fileID: 482589772}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &482589774
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 482589773}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b53f0af88ec588845ad9783bcff6049b, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1096704407
 GameObject:
   m_ObjectHideFlags: 0

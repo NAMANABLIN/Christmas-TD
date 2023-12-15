@@ -64,7 +64,8 @@ public class PlayerManager : MonoBehaviour
         float z = Input.GetAxis("Vertical");
 
         Vector3 move = new Vector3(x, 0f, z);
-        
-        _rb.velocity = move*speed*Time.fixedDeltaTime;
+
+        var worldDirection = _rb.transform.TransformDirection(move);
+        _rb.velocity = worldDirection*speed*Time.fixedDeltaTime;
     }
 }

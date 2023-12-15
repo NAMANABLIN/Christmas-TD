@@ -10,19 +10,15 @@ public class EnemyLogic : MonoBehaviour
     [SerializeField] private EnemyConfig _config;
     [SerializeField] private NavMeshAgent Agent;
     [SerializeField] private Transform _target;
-    void Start()
-    {
-        Setup(1);
-        Agent.SetDestination(_target.position);
-    }
 
-    public void Setup(int level)
+    public void Setup(int level, Transform target)
     {
         var data = _config.GetEnemyData(level);
         _health = data.health;
         _damage = data.damage;
         Agent.speed = data.moveSpeed;
         Agent.angularSpeed = data.rotationSpeed;
+        _target = target;
     }
 
     // Update is called once per frame

@@ -1,0 +1,2147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6648782553735328872
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8345736765410504440}
+  - component: {fileID: 3333020167985488827}
+  - component: {fileID: 7410629934686775461}
+  m_Layer: 0
+  m_Name: Point Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8345736765410504440
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6648782553735328872}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.409, y: 1.922, z: 0.352}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4428612467538244551}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &3333020167985488827
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6648782553735328872}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 0.9215687, g: 0.8470589, b: 0.2509804, a: 1}
+  m_Intensity: 4.8
+  m_Range: 19.53
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!114 &7410629934686775461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6648782553735328872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+--- !u!1 &8676674973612316661
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4428612467538244551}
+  m_Layer: 0
+  m_Name: ChristmasTree
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4428612467538244551
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8676674973612316661}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -3.504}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 805876749152501792}
+  - {fileID: 7951580471867451843}
+  - {fileID: 2857764998225007223}
+  - {fileID: 5890841841154047170}
+  - {fileID: 7539455027489468733}
+  - {fileID: 852336048469754309}
+  - {fileID: 2466847746361173772}
+  - {fileID: 4608638108454912698}
+  - {fileID: 7653405754251360961}
+  - {fileID: 9128332853025502651}
+  - {fileID: 8118773177262579196}
+  - {fileID: 451249156136308238}
+  - {fileID: 6186479920118663735}
+  - {fileID: 6907909091422365021}
+  - {fileID: 963804602411787248}
+  - {fileID: 6835089006083031449}
+  - {fileID: 4202773973065819993}
+  - {fileID: 4750079286979932395}
+  - {fileID: 7714670466703760485}
+  - {fileID: 5457534024534992697}
+  - {fileID: 6442248161985950198}
+  - {fileID: 107582613575878439}
+  - {fileID: 5189432939437564233}
+  - {fileID: 884226192549258217}
+  - {fileID: 7466518946637117433}
+  - {fileID: 1466547220769074220}
+  - {fileID: 5220090203315770112}
+  - {fileID: 4430669336374196567}
+  - {fileID: 2601710928093673308}
+  - {fileID: 2870462867770802670}
+  - {fileID: 7755168408175447230}
+  - {fileID: 1624695538047791825}
+  - {fileID: 5272010104248858831}
+  - {fileID: 1938578560287665535}
+  - {fileID: 8142582693535006529}
+  - {fileID: 8345736765410504440}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &107582613576065521
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4428612467538244551}
+    m_Modifications:
+    - target: {fileID: 150382, guid: 346f449c586a86f4e8f51c9bfc6f8ac0, type: 3}
+      propertyPath: m_Name
+      value: Christmas_Ball_00 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 485078, guid: 346f449c586a86f4e8f51c9bfc6f8ac0, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 485078, guid: 346f449c586a86f4e8f51c9bfc6f8ac0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.1049633
+      objectReference: {fileID: 0}
+    - target: {fileID: 485078, guid: 346f449c586a86f4e8f51c9bfc6f8ac0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.49285316
+      objectReference: {fileID: 0}
+    - target: {fileID: 485078, guid: 346f449c586a86f4e8f51c9bfc6f8ac0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.6326618
+      objectReference: {fileID: 0}
+    - target: {fileID: 485078, guid: 346f449c586a86f4e8f51c9bfc6f8ac0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 485078, guid: 346f449c586a86f4e8f51c9bfc6f8ac0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 485078, guid: 346f449c586a86f4e8f51c9bfc6f8ac0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 485078, guid: 346f449c586a86f4e8f51c9bfc6f8ac0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6407986, guid: 346f449c586a86f4e8f51c9bfc6f8ac0, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 346f449c586a86f4e8f51c9bfc6f8ac0, type: 3}
+--- !u!4 &107582613575878439 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 485078, guid: 346f449c586a86f4e8f51c9bfc6f8ac0,
+    type: 3}
+  m_PrefabInstance: {fileID: 107582613576065521}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &451249156136446654
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4428612467538244551}
+    m_Modifications:
+    - target: {fileID: 131520, guid: 1ed533a8c248eac4299454be839f4bd2, type: 3}
+      propertyPath: m_Name
+      value: Christmas_Candy_04 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 402608, guid: 1ed533a8c248eac4299454be839f4bd2, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 402608, guid: 1ed533a8c248eac4299454be839f4bd2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.42285156
+      objectReference: {fileID: 0}
+    - target: {fileID: 402608, guid: 1ed533a8c248eac4299454be839f4bd2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.3382094
+      objectReference: {fileID: 0}
+    - target: {fileID: 402608, guid: 1ed533a8c248eac4299454be839f4bd2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.33776665
+      objectReference: {fileID: 0}
+    - target: {fileID: 402608, guid: 1ed533a8c248eac4299454be839f4bd2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9854353
+      objectReference: {fileID: 0}
+    - target: {fileID: 402608, guid: 1ed533a8c248eac4299454be839f4bd2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.17005096
+      objectReference: {fileID: 0}
+    - target: {fileID: 402608, guid: 1ed533a8c248eac4299454be839f4bd2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 402608, guid: 1ed533a8c248eac4299454be839f4bd2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6449260, guid: 1ed533a8c248eac4299454be839f4bd2, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1ed533a8c248eac4299454be839f4bd2, type: 3}
+--- !u!4 &451249156136308238 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 402608, guid: 1ed533a8c248eac4299454be839f4bd2,
+    type: 3}
+  m_PrefabInstance: {fileID: 451249156136446654}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &805876749152552748
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4428612467538244551}
+    m_Modifications:
+    - target: {fileID: 175328, guid: d24a2ef07343af2459b251fc9b9e1db8, type: 3}
+      propertyPath: m_Name
+      value: Christmas_Ball_03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 476940, guid: d24a2ef07343af2459b251fc9b9e1db8, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 476940, guid: d24a2ef07343af2459b251fc9b9e1db8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.70443153
+      objectReference: {fileID: 0}
+    - target: {fileID: 476940, guid: d24a2ef07343af2459b251fc9b9e1db8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5163162
+      objectReference: {fileID: 0}
+    - target: {fileID: 476940, guid: d24a2ef07343af2459b251fc9b9e1db8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5079713
+      objectReference: {fileID: 0}
+    - target: {fileID: 476940, guid: d24a2ef07343af2459b251fc9b9e1db8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 476940, guid: d24a2ef07343af2459b251fc9b9e1db8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 476940, guid: d24a2ef07343af2459b251fc9b9e1db8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 476940, guid: d24a2ef07343af2459b251fc9b9e1db8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6425930, guid: d24a2ef07343af2459b251fc9b9e1db8, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d24a2ef07343af2459b251fc9b9e1db8, type: 3}
+--- !u!4 &805876749152501792 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 476940, guid: d24a2ef07343af2459b251fc9b9e1db8,
+    type: 3}
+  m_PrefabInstance: {fileID: 805876749152552748}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &852336048469589229
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4428612467538244551}
+    m_Modifications:
+    - target: {fileID: 193638, guid: e7b730946c7cdbb41bc1d7911633430b, type: 3}
+      propertyPath: m_Name
+      value: Christmas_Candy_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 458024, guid: e7b730946c7cdbb41bc1d7911633430b, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 458024, guid: e7b730946c7cdbb41bc1d7911633430b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.3469906
+      objectReference: {fileID: 0}
+    - target: {fileID: 458024, guid: e7b730946c7cdbb41bc1d7911633430b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.46067
+      objectReference: {fileID: 0}
+    - target: {fileID: 458024, guid: e7b730946c7cdbb41bc1d7911633430b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.019569874
+      objectReference: {fileID: 0}
+    - target: {fileID: 458024, guid: e7b730946c7cdbb41bc1d7911633430b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.50718266
+      objectReference: {fileID: 0}
+    - target: {fileID: 458024, guid: e7b730946c7cdbb41bc1d7911633430b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.11524157
+      objectReference: {fileID: 0}
+    - target: {fileID: 458024, guid: e7b730946c7cdbb41bc1d7911633430b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.8328697
+      objectReference: {fileID: 0}
+    - target: {fileID: 458024, guid: e7b730946c7cdbb41bc1d7911633430b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.18924393
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6459134, guid: e7b730946c7cdbb41bc1d7911633430b, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e7b730946c7cdbb41bc1d7911633430b, type: 3}
+--- !u!4 &852336048469754309 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 458024, guid: e7b730946c7cdbb41bc1d7911633430b,
+    type: 3}
+  m_PrefabInstance: {fileID: 852336048469589229}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &884226192548853081
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4428612467538244551}
+    m_Modifications:
+    - target: {fileID: 168756, guid: 5cfbdf185452a6c46bb39eec1b9f4a2e, type: 3}
+      propertyPath: m_Name
+      value: Christmas_Candy_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 448176, guid: 5cfbdf185452a6c46bb39eec1b9f4a2e, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 448176, guid: 5cfbdf185452a6c46bb39eec1b9f4a2e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.7648525
+      objectReference: {fileID: 0}
+    - target: {fileID: 448176, guid: 5cfbdf185452a6c46bb39eec1b9f4a2e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.41779053
+      objectReference: {fileID: 0}
+    - target: {fileID: 448176, guid: 5cfbdf185452a6c46bb39eec1b9f4a2e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.2122333
+      objectReference: {fileID: 0}
+    - target: {fileID: 448176, guid: 5cfbdf185452a6c46bb39eec1b9f4a2e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.90246314
+      objectReference: {fileID: 0}
+    - target: {fileID: 448176, guid: 5cfbdf185452a6c46bb39eec1b9f4a2e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.25197324
+      objectReference: {fileID: 0}
+    - target: {fileID: 448176, guid: 5cfbdf185452a6c46bb39eec1b9f4a2e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.34771812
+      objectReference: {fileID: 0}
+    - target: {fileID: 448176, guid: 5cfbdf185452a6c46bb39eec1b9f4a2e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.034087557
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6490034, guid: 5cfbdf185452a6c46bb39eec1b9f4a2e, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5cfbdf185452a6c46bb39eec1b9f4a2e, type: 3}
+--- !u!4 &884226192549258217 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 448176, guid: 5cfbdf185452a6c46bb39eec1b9f4a2e,
+    type: 3}
+  m_PrefabInstance: {fileID: 884226192548853081}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &963804602411670114
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4428612467538244551}
+    m_Modifications:
+    - target: {fileID: 107174, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+      propertyPath: m_Name
+      value: Christmas_Ball_05 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 424338, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 424338, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.18242264
+      objectReference: {fileID: 0}
+    - target: {fileID: 424338, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.10368371
+      objectReference: {fileID: 0}
+    - target: {fileID: 424338, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5651002
+      objectReference: {fileID: 0}
+    - target: {fileID: 424338, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 424338, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 424338, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 424338, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6493394, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+--- !u!4 &963804602411787248 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 424338, guid: 7ad324a9f0845a248a5ee8baff2855a7,
+    type: 3}
+  m_PrefabInstance: {fileID: 963804602411670114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1466547220768675202
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4428612467538244551}
+    m_Modifications:
+    - target: {fileID: 165738, guid: 842467ccc4ad3264d8b43bcea1454771, type: 3}
+      propertyPath: m_Name
+      value: Christmas_Ball_06 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 407982, guid: 842467ccc4ad3264d8b43bcea1454771, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 407982, guid: 842467ccc4ad3264d8b43bcea1454771, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.2223053
+      objectReference: {fileID: 0}
+    - target: {fileID: 407982, guid: 842467ccc4ad3264d8b43bcea1454771, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.0770115
+      objectReference: {fileID: 0}
+    - target: {fileID: 407982, guid: 842467ccc4ad3264d8b43bcea1454771, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.53633475
+      objectReference: {fileID: 0}
+    - target: {fileID: 407982, guid: 842467ccc4ad3264d8b43bcea1454771, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 407982, guid: 842467ccc4ad3264d8b43bcea1454771, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 407982, guid: 842467ccc4ad3264d8b43bcea1454771, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 407982, guid: 842467ccc4ad3264d8b43bcea1454771, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6454062, guid: 842467ccc4ad3264d8b43bcea1454771, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 842467ccc4ad3264d8b43bcea1454771, type: 3}
+--- !u!4 &1466547220769074220 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 407982, guid: 842467ccc4ad3264d8b43bcea1454771,
+    type: 3}
+  m_PrefabInstance: {fileID: 1466547220768675202}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1624695538048177441
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4428612467538244551}
+    m_Modifications:
+    - target: {fileID: 178902, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+      propertyPath: m_Name
+      value: Christmas_Ball_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 403440, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 403440, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5809841
+      objectReference: {fileID: 0}
+    - target: {fileID: 403440, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0541358
+      objectReference: {fileID: 0}
+    - target: {fileID: 403440, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0035192966
+      objectReference: {fileID: 0}
+    - target: {fileID: 403440, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 403440, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 403440, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 403440, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6405188, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+--- !u!4 &1624695538047791825 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 403440, guid: 2b77c0dac663d2f41b92953df12127da,
+    type: 3}
+  m_PrefabInstance: {fileID: 1624695538048177441}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1938578560287836045
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4428612467538244551}
+    m_Modifications:
+    - target: {fileID: 170010, guid: 9d21682eb45dd044a9a0d26d5352f4e2, type: 3}
+      propertyPath: m_Name
+      value: Christmas_Candy_00 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 486130, guid: 9d21682eb45dd044a9a0d26d5352f4e2, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 486130, guid: 9d21682eb45dd044a9a0d26d5352f4e2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.1428528
+      objectReference: {fileID: 0}
+    - target: {fileID: 486130, guid: 9d21682eb45dd044a9a0d26d5352f4e2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5582094
+      objectReference: {fileID: 0}
+    - target: {fileID: 486130, guid: 9d21682eb45dd044a9a0d26d5352f4e2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.19523335
+      objectReference: {fileID: 0}
+    - target: {fileID: 486130, guid: 9d21682eb45dd044a9a0d26d5352f4e2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8435345
+      objectReference: {fileID: 0}
+    - target: {fileID: 486130, guid: 9d21682eb45dd044a9a0d26d5352f4e2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.31159016
+      objectReference: {fileID: 0}
+    - target: {fileID: 486130, guid: 9d21682eb45dd044a9a0d26d5352f4e2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.43249604
+      objectReference: {fileID: 0}
+    - target: {fileID: 486130, guid: 9d21682eb45dd044a9a0d26d5352f4e2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.06563739
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6459240, guid: 9d21682eb45dd044a9a0d26d5352f4e2, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9d21682eb45dd044a9a0d26d5352f4e2, type: 3}
+--- !u!4 &1938578560287665535 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 486130, guid: 9d21682eb45dd044a9a0d26d5352f4e2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1938578560287836045}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2466847746361056926
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4428612467538244551}
+    m_Modifications:
+    - target: {fileID: 107174, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+      propertyPath: m_Name
+      value: Christmas_Ball_05 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 424338, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 424338, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.22099113
+      objectReference: {fileID: 0}
+    - target: {fileID: 424338, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.0324261
+      objectReference: {fileID: 0}
+    - target: {fileID: 424338, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.3297937
+      objectReference: {fileID: 0}
+    - target: {fileID: 424338, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 424338, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 424338, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 424338, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6493394, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+--- !u!4 &2466847746361173772 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 424338, guid: 7ad324a9f0845a248a5ee8baff2855a7,
+    type: 3}
+  m_PrefabInstance: {fileID: 2466847746361056926}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2601710928093319562
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4428612467538244551}
+    m_Modifications:
+    - target: {fileID: 150382, guid: 346f449c586a86f4e8f51c9bfc6f8ac0, type: 3}
+      propertyPath: m_Name
+      value: Christmas_Ball_00 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 485078, guid: 346f449c586a86f4e8f51c9bfc6f8ac0, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 485078, guid: 346f449c586a86f4e8f51c9bfc6f8ac0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.24925041
+      objectReference: {fileID: 0}
+    - target: {fileID: 485078, guid: 346f449c586a86f4e8f51c9bfc6f8ac0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5251837
+      objectReference: {fileID: 0}
+    - target: {fileID: 485078, guid: 346f449c586a86f4e8f51c9bfc6f8ac0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.86399055
+      objectReference: {fileID: 0}
+    - target: {fileID: 485078, guid: 346f449c586a86f4e8f51c9bfc6f8ac0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 485078, guid: 346f449c586a86f4e8f51c9bfc6f8ac0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 485078, guid: 346f449c586a86f4e8f51c9bfc6f8ac0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 485078, guid: 346f449c586a86f4e8f51c9bfc6f8ac0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6407986, guid: 346f449c586a86f4e8f51c9bfc6f8ac0, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 346f449c586a86f4e8f51c9bfc6f8ac0, type: 3}
+--- !u!4 &2601710928093673308 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 485078, guid: 346f449c586a86f4e8f51c9bfc6f8ac0,
+    type: 3}
+  m_PrefabInstance: {fileID: 2601710928093319562}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2857764998224573601
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4428612467538244551}
+    m_Modifications:
+    - target: {fileID: 150382, guid: 346f449c586a86f4e8f51c9bfc6f8ac0, type: 3}
+      propertyPath: m_Name
+      value: Christmas_Ball_00 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 485078, guid: 346f449c586a86f4e8f51c9bfc6f8ac0, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 485078, guid: 346f449c586a86f4e8f51c9bfc6f8ac0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.046230316
+      objectReference: {fileID: 0}
+    - target: {fileID: 485078, guid: 346f449c586a86f4e8f51c9bfc6f8ac0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.507751
+      objectReference: {fileID: 0}
+    - target: {fileID: 485078, guid: 346f449c586a86f4e8f51c9bfc6f8ac0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.18727183
+      objectReference: {fileID: 0}
+    - target: {fileID: 485078, guid: 346f449c586a86f4e8f51c9bfc6f8ac0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 485078, guid: 346f449c586a86f4e8f51c9bfc6f8ac0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 485078, guid: 346f449c586a86f4e8f51c9bfc6f8ac0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 485078, guid: 346f449c586a86f4e8f51c9bfc6f8ac0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6407986, guid: 346f449c586a86f4e8f51c9bfc6f8ac0, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 346f449c586a86f4e8f51c9bfc6f8ac0, type: 3}
+--- !u!4 &2857764998225007223 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 485078, guid: 346f449c586a86f4e8f51c9bfc6f8ac0,
+    type: 3}
+  m_PrefabInstance: {fileID: 2857764998224573601}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2870462867770680670
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4428612467538244551}
+    m_Modifications:
+    - target: {fileID: 131520, guid: 1ed533a8c248eac4299454be839f4bd2, type: 3}
+      propertyPath: m_Name
+      value: Christmas_Candy_04 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 402608, guid: 1ed533a8c248eac4299454be839f4bd2, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 402608, guid: 1ed533a8c248eac4299454be839f4bd2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.6087589
+      objectReference: {fileID: 0}
+    - target: {fileID: 402608, guid: 1ed533a8c248eac4299454be839f4bd2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3599714
+      objectReference: {fileID: 0}
+    - target: {fileID: 402608, guid: 1ed533a8c248eac4299454be839f4bd2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.8591263
+      objectReference: {fileID: 0}
+    - target: {fileID: 402608, guid: 1ed533a8c248eac4299454be839f4bd2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.3732597
+      objectReference: {fileID: 0}
+    - target: {fileID: 402608, guid: 1ed533a8c248eac4299454be839f4bd2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.075633354
+      objectReference: {fileID: 0}
+    - target: {fileID: 402608, guid: 1ed533a8c248eac4299454be839f4bd2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9057199
+      objectReference: {fileID: 0}
+    - target: {fileID: 402608, guid: 1ed533a8c248eac4299454be839f4bd2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.18608713
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6449260, guid: 1ed533a8c248eac4299454be839f4bd2, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1ed533a8c248eac4299454be839f4bd2, type: 3}
+--- !u!4 &2870462867770802670 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 402608, guid: 1ed533a8c248eac4299454be839f4bd2,
+    type: 3}
+  m_PrefabInstance: {fileID: 2870462867770680670}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4202773973066280139
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4428612467538244551}
+    m_Modifications:
+    - target: {fileID: 113156, guid: 5424cda683fac0e4ea61e5245094a7e5, type: 3}
+      propertyPath: m_Name
+      value: Christmas_Ball_10 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 461714, guid: 5424cda683fac0e4ea61e5245094a7e5, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 461714, guid: 5424cda683fac0e4ea61e5245094a7e5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.74731255
+      objectReference: {fileID: 0}
+    - target: {fileID: 461714, guid: 5424cda683fac0e4ea61e5245094a7e5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.52081096
+      objectReference: {fileID: 0}
+    - target: {fileID: 461714, guid: 5424cda683fac0e4ea61e5245094a7e5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.084301
+      objectReference: {fileID: 0}
+    - target: {fileID: 461714, guid: 5424cda683fac0e4ea61e5245094a7e5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 461714, guid: 5424cda683fac0e4ea61e5245094a7e5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 461714, guid: 5424cda683fac0e4ea61e5245094a7e5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 461714, guid: 5424cda683fac0e4ea61e5245094a7e5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6461756, guid: 5424cda683fac0e4ea61e5245094a7e5, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5424cda683fac0e4ea61e5245094a7e5, type: 3}
+--- !u!4 &4202773973065819993 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 461714, guid: 5424cda683fac0e4ea61e5245094a7e5,
+    type: 3}
+  m_PrefabInstance: {fileID: 4202773973066280139}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4430669336374069409
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4428612467538244551}
+    m_Modifications:
+    - target: {fileID: 140688, guid: 86cca0d98031dba4883c01dbd59f8e2f, type: 3}
+      propertyPath: m_Name
+      value: Christmas_Ball_04 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 422390, guid: 86cca0d98031dba4883c01dbd59f8e2f, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422390, guid: 86cca0d98031dba4883c01dbd59f8e2f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.23809242
+      objectReference: {fileID: 0}
+    - target: {fileID: 422390, guid: 86cca0d98031dba4883c01dbd59f8e2f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.022176
+      objectReference: {fileID: 0}
+    - target: {fileID: 422390, guid: 86cca0d98031dba4883c01dbd59f8e2f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.0041423
+      objectReference: {fileID: 0}
+    - target: {fileID: 422390, guid: 86cca0d98031dba4883c01dbd59f8e2f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422390, guid: 86cca0d98031dba4883c01dbd59f8e2f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 422390, guid: 86cca0d98031dba4883c01dbd59f8e2f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422390, guid: 86cca0d98031dba4883c01dbd59f8e2f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6499414, guid: 86cca0d98031dba4883c01dbd59f8e2f, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 86cca0d98031dba4883c01dbd59f8e2f, type: 3}
+--- !u!4 &4430669336374196567 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 422390, guid: 86cca0d98031dba4883c01dbd59f8e2f,
+    type: 3}
+  m_PrefabInstance: {fileID: 4430669336374069409}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4608638108455388598
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4428612467538244551}
+    m_Modifications:
+    - target: {fileID: 175328, guid: d24a2ef07343af2459b251fc9b9e1db8, type: 3}
+      propertyPath: m_Name
+      value: Christmas_Ball_03 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 476940, guid: d24a2ef07343af2459b251fc9b9e1db8, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 476940, guid: d24a2ef07343af2459b251fc9b9e1db8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.118637085
+      objectReference: {fileID: 0}
+    - target: {fileID: 476940, guid: d24a2ef07343af2459b251fc9b9e1db8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.87364817
+      objectReference: {fileID: 0}
+    - target: {fileID: 476940, guid: d24a2ef07343af2459b251fc9b9e1db8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.619081
+      objectReference: {fileID: 0}
+    - target: {fileID: 476940, guid: d24a2ef07343af2459b251fc9b9e1db8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 476940, guid: d24a2ef07343af2459b251fc9b9e1db8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 476940, guid: d24a2ef07343af2459b251fc9b9e1db8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 476940, guid: d24a2ef07343af2459b251fc9b9e1db8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6425930, guid: d24a2ef07343af2459b251fc9b9e1db8, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d24a2ef07343af2459b251fc9b9e1db8, type: 3}
+--- !u!4 &4608638108454912698 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 476940, guid: d24a2ef07343af2459b251fc9b9e1db8,
+    type: 3}
+  m_PrefabInstance: {fileID: 4608638108455388598}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4750079286980264999
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4428612467538244551}
+    m_Modifications:
+    - target: {fileID: 119890, guid: 998fb6df537612b4b93fd1efbbb9c4a7, type: 3}
+      propertyPath: m_Name
+      value: Christmas_Ball_09 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 488652, guid: 998fb6df537612b4b93fd1efbbb9c4a7, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 488652, guid: 998fb6df537612b4b93fd1efbbb9c4a7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 488652, guid: 998fb6df537612b4b93fd1efbbb9c4a7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 488652, guid: 998fb6df537612b4b93fd1efbbb9c4a7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 488652, guid: 998fb6df537612b4b93fd1efbbb9c4a7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 488652, guid: 998fb6df537612b4b93fd1efbbb9c4a7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 488652, guid: 998fb6df537612b4b93fd1efbbb9c4a7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 488652, guid: 998fb6df537612b4b93fd1efbbb9c4a7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6412108, guid: 998fb6df537612b4b93fd1efbbb9c4a7, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 998fb6df537612b4b93fd1efbbb9c4a7, type: 3}
+--- !u!4 &4750079286979932395 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 488652, guid: 998fb6df537612b4b93fd1efbbb9c4a7,
+    type: 3}
+  m_PrefabInstance: {fileID: 4750079286980264999}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5189432939437688313
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4428612467538244551}
+    m_Modifications:
+    - target: {fileID: 131520, guid: 1ed533a8c248eac4299454be839f4bd2, type: 3}
+      propertyPath: m_Name
+      value: Christmas_Candy_04 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 402608, guid: 1ed533a8c248eac4299454be839f4bd2, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 402608, guid: 1ed533a8c248eac4299454be839f4bd2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.05114746
+      objectReference: {fileID: 0}
+    - target: {fileID: 402608, guid: 1ed533a8c248eac4299454be839f4bd2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5417906
+      objectReference: {fileID: 0}
+    - target: {fileID: 402608, guid: 1ed533a8c248eac4299454be839f4bd2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.4292333
+      objectReference: {fileID: 0}
+    - target: {fileID: 402608, guid: 1ed533a8c248eac4299454be839f4bd2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6510605
+      objectReference: {fileID: 0}
+    - target: {fileID: 402608, guid: 1ed533a8c248eac4299454be839f4bd2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.10940311
+      objectReference: {fileID: 0}
+    - target: {fileID: 402608, guid: 1ed533a8c248eac4299454be839f4bd2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.73667794
+      objectReference: {fileID: 0}
+    - target: {fileID: 402608, guid: 1ed533a8c248eac4299454be839f4bd2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.14648154
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6449260, guid: 1ed533a8c248eac4299454be839f4bd2, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1ed533a8c248eac4299454be839f4bd2, type: 3}
+--- !u!4 &5189432939437564233 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 402608, guid: 1ed533a8c248eac4299454be839f4bd2,
+    type: 3}
+  m_PrefabInstance: {fileID: 5189432939437688313}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5220090203315909872
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4428612467538244551}
+    m_Modifications:
+    - target: {fileID: 178902, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+      propertyPath: m_Name
+      value: Christmas_Ball_01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 403440, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 403440, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.16800117
+      objectReference: {fileID: 0}
+    - target: {fileID: 403440, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0449636
+      objectReference: {fileID: 0}
+    - target: {fileID: 403440, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.0241432
+      objectReference: {fileID: 0}
+    - target: {fileID: 403440, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 403440, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 403440, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 403440, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6405188, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+--- !u!4 &5220090203315770112 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 403440, guid: 2b77c0dac663d2f41b92953df12127da,
+    type: 3}
+  m_PrefabInstance: {fileID: 5220090203315909872}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5272010104248660829
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4428612467538244551}
+    m_Modifications:
+    - target: {fileID: 113156, guid: 5424cda683fac0e4ea61e5245094a7e5, type: 3}
+      propertyPath: m_Name
+      value: Christmas_Ball_10 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 461714, guid: 5424cda683fac0e4ea61e5245094a7e5, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 461714, guid: 5424cda683fac0e4ea61e5245094a7e5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5028324
+      objectReference: {fileID: 0}
+    - target: {fileID: 461714, guid: 5424cda683fac0e4ea61e5245094a7e5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.0304474
+      objectReference: {fileID: 0}
+    - target: {fileID: 461714, guid: 5424cda683fac0e4ea61e5245094a7e5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.4936936
+      objectReference: {fileID: 0}
+    - target: {fileID: 461714, guid: 5424cda683fac0e4ea61e5245094a7e5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 461714, guid: 5424cda683fac0e4ea61e5245094a7e5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 461714, guid: 5424cda683fac0e4ea61e5245094a7e5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 461714, guid: 5424cda683fac0e4ea61e5245094a7e5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6461756, guid: 5424cda683fac0e4ea61e5245094a7e5, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5424cda683fac0e4ea61e5245094a7e5, type: 3}
+--- !u!4 &5272010104248858831 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 461714, guid: 5424cda683fac0e4ea61e5245094a7e5,
+    type: 3}
+  m_PrefabInstance: {fileID: 5272010104248660829}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5457534024534932587
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4428612467538244551}
+    m_Modifications:
+    - target: {fileID: 151722, guid: 7abb5fa6bbe4acd47bdcd63e0ad8fa4d, type: 3}
+      propertyPath: m_Name
+      value: Christmas_Ball_07 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 465746, guid: 7abb5fa6bbe4acd47bdcd63e0ad8fa4d, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 465746, guid: 7abb5fa6bbe4acd47bdcd63e0ad8fa4d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.75211334
+      objectReference: {fileID: 0}
+    - target: {fileID: 465746, guid: 7abb5fa6bbe4acd47bdcd63e0ad8fa4d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.47236264
+      objectReference: {fileID: 0}
+    - target: {fileID: 465746, guid: 7abb5fa6bbe4acd47bdcd63e0ad8fa4d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.17036319
+      objectReference: {fileID: 0}
+    - target: {fileID: 465746, guid: 7abb5fa6bbe4acd47bdcd63e0ad8fa4d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 465746, guid: 7abb5fa6bbe4acd47bdcd63e0ad8fa4d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 465746, guid: 7abb5fa6bbe4acd47bdcd63e0ad8fa4d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 465746, guid: 7abb5fa6bbe4acd47bdcd63e0ad8fa4d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6477516, guid: 7abb5fa6bbe4acd47bdcd63e0ad8fa4d, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7abb5fa6bbe4acd47bdcd63e0ad8fa4d, type: 3}
+--- !u!4 &5457534024534992697 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 465746, guid: 7abb5fa6bbe4acd47bdcd63e0ad8fa4d,
+    type: 3}
+  m_PrefabInstance: {fileID: 5457534024534932587}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5890841841153639788
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4428612467538244551}
+    m_Modifications:
+    - target: {fileID: 165738, guid: 842467ccc4ad3264d8b43bcea1454771, type: 3}
+      propertyPath: m_Name
+      value: Christmas_Ball_06 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 407982, guid: 842467ccc4ad3264d8b43bcea1454771, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 407982, guid: 842467ccc4ad3264d8b43bcea1454771, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.109931946
+      objectReference: {fileID: 0}
+    - target: {fileID: 407982, guid: 842467ccc4ad3264d8b43bcea1454771, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.0930293
+      objectReference: {fileID: 0}
+    - target: {fileID: 407982, guid: 842467ccc4ad3264d8b43bcea1454771, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.3053856
+      objectReference: {fileID: 0}
+    - target: {fileID: 407982, guid: 842467ccc4ad3264d8b43bcea1454771, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 407982, guid: 842467ccc4ad3264d8b43bcea1454771, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 407982, guid: 842467ccc4ad3264d8b43bcea1454771, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 407982, guid: 842467ccc4ad3264d8b43bcea1454771, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6454062, guid: 842467ccc4ad3264d8b43bcea1454771, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 842467ccc4ad3264d8b43bcea1454771, type: 3}
+--- !u!4 &5890841841154047170 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 407982, guid: 842467ccc4ad3264d8b43bcea1454771,
+    type: 3}
+  m_PrefabInstance: {fileID: 5890841841153639788}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6186479920118783111
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4428612467538244551}
+    m_Modifications:
+    - target: {fileID: 168756, guid: 5cfbdf185452a6c46bb39eec1b9f4a2e, type: 3}
+      propertyPath: m_Name
+      value: Christmas_Candy_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 448176, guid: 5cfbdf185452a6c46bb39eec1b9f4a2e, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 448176, guid: 5cfbdf185452a6c46bb39eec1b9f4a2e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.29254532
+      objectReference: {fileID: 0}
+    - target: {fileID: 448176, guid: 5cfbdf185452a6c46bb39eec1b9f4a2e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.30093062
+      objectReference: {fileID: 0}
+    - target: {fileID: 448176, guid: 5cfbdf185452a6c46bb39eec1b9f4a2e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.85862947
+      objectReference: {fileID: 0}
+    - target: {fileID: 448176, guid: 5cfbdf185452a6c46bb39eec1b9f4a2e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.42724612
+      objectReference: {fileID: 0}
+    - target: {fileID: 448176, guid: 5cfbdf185452a6c46bb39eec1b9f4a2e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.053361535
+      objectReference: {fileID: 0}
+    - target: {fileID: 448176, guid: 5cfbdf185452a6c46bb39eec1b9f4a2e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.8806387
+      objectReference: {fileID: 0}
+    - target: {fileID: 448176, guid: 5cfbdf185452a6c46bb39eec1b9f4a2e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.19770868
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6490034, guid: 5cfbdf185452a6c46bb39eec1b9f4a2e, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5cfbdf185452a6c46bb39eec1b9f4a2e, type: 3}
+--- !u!4 &6186479920118663735 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 448176, guid: 5cfbdf185452a6c46bb39eec1b9f4a2e,
+    type: 3}
+  m_PrefabInstance: {fileID: 6186479920118783111}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6442248161985743074
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4428612467538244551}
+    m_Modifications:
+    - target: {fileID: 198084, guid: 305a3bd1e0115c34ca3c0d0d4089a556, type: 3}
+      propertyPath: m_Name
+      value: Christmas_Tree_V1_03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 473364, guid: 305a3bd1e0115c34ca3c0d0d4089a556, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 473364, guid: 305a3bd1e0115c34ca3c0d0d4089a556, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.3405857
+      objectReference: {fileID: 0}
+    - target: {fileID: 473364, guid: 305a3bd1e0115c34ca3c0d0d4089a556, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.4562094
+      objectReference: {fileID: 0}
+    - target: {fileID: 473364, guid: 305a3bd1e0115c34ca3c0d0d4089a556, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.46576333
+      objectReference: {fileID: 0}
+    - target: {fileID: 473364, guid: 305a3bd1e0115c34ca3c0d0d4089a556, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 473364, guid: 305a3bd1e0115c34ca3c0d0d4089a556, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 473364, guid: 305a3bd1e0115c34ca3c0d0d4089a556, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 473364, guid: 305a3bd1e0115c34ca3c0d0d4089a556, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6467790, guid: 305a3bd1e0115c34ca3c0d0d4089a556, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 305a3bd1e0115c34ca3c0d0d4089a556, type: 3}
+--- !u!4 &6442248161985950198 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 473364, guid: 305a3bd1e0115c34ca3c0d0d4089a556,
+    type: 3}
+  m_PrefabInstance: {fileID: 6442248161985743074}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6835089006083422219
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4428612467538244551}
+    m_Modifications:
+    - target: {fileID: 107174, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+      propertyPath: m_Name
+      value: Christmas_Ball_05 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 424338, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 424338, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.79981995
+      objectReference: {fileID: 0}
+    - target: {fileID: 424338, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.0764294
+      objectReference: {fileID: 0}
+    - target: {fileID: 424338, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.181427
+      objectReference: {fileID: 0}
+    - target: {fileID: 424338, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 424338, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 424338, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 424338, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6493394, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+--- !u!4 &6835089006083031449 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 424338, guid: 7ad324a9f0845a248a5ee8baff2855a7,
+    type: 3}
+  m_PrefabInstance: {fileID: 6835089006083422219}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6907909091422434087
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4428612467538244551}
+    m_Modifications:
+    - target: {fileID: 193158, guid: a6803f38f5492a846a254a30a359f917, type: 3}
+      propertyPath: m_Name
+      value: Christmas_Candy_03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 464506, guid: a6803f38f5492a846a254a30a359f917, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 464506, guid: a6803f38f5492a846a254a30a359f917, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.0682068
+      objectReference: {fileID: 0}
+    - target: {fileID: 464506, guid: a6803f38f5492a846a254a30a359f917, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.67468834
+      objectReference: {fileID: 0}
+    - target: {fileID: 464506, guid: a6803f38f5492a846a254a30a359f917, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.94196486
+      objectReference: {fileID: 0}
+    - target: {fileID: 464506, guid: a6803f38f5492a846a254a30a359f917, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8033849
+      objectReference: {fileID: 0}
+    - target: {fileID: 464506, guid: a6803f38f5492a846a254a30a359f917, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.24384855
+      objectReference: {fileID: 0}
+    - target: {fileID: 464506, guid: a6803f38f5492a846a254a30a359f917, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.54117125
+      objectReference: {fileID: 0}
+    - target: {fileID: 464506, guid: a6803f38f5492a846a254a30a359f917, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.04737418
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6425722, guid: a6803f38f5492a846a254a30a359f917, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a6803f38f5492a846a254a30a359f917, type: 3}
+--- !u!4 &6907909091422365021 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 464506, guid: a6803f38f5492a846a254a30a359f917,
+    type: 3}
+  m_PrefabInstance: {fileID: 6907909091422434087}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7466518946636655787
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4428612467538244551}
+    m_Modifications:
+    - target: {fileID: 151722, guid: 7abb5fa6bbe4acd47bdcd63e0ad8fa4d, type: 3}
+      propertyPath: m_Name
+      value: Christmas_Ball_07 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 465746, guid: 7abb5fa6bbe4acd47bdcd63e0ad8fa4d, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 465746, guid: 7abb5fa6bbe4acd47bdcd63e0ad8fa4d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.40764236
+      objectReference: {fileID: 0}
+    - target: {fileID: 465746, guid: 7abb5fa6bbe4acd47bdcd63e0ad8fa4d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.37707484
+      objectReference: {fileID: 0}
+    - target: {fileID: 465746, guid: 7abb5fa6bbe4acd47bdcd63e0ad8fa4d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.56941843
+      objectReference: {fileID: 0}
+    - target: {fileID: 465746, guid: 7abb5fa6bbe4acd47bdcd63e0ad8fa4d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 465746, guid: 7abb5fa6bbe4acd47bdcd63e0ad8fa4d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 465746, guid: 7abb5fa6bbe4acd47bdcd63e0ad8fa4d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 465746, guid: 7abb5fa6bbe4acd47bdcd63e0ad8fa4d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6477516, guid: 7abb5fa6bbe4acd47bdcd63e0ad8fa4d, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7abb5fa6bbe4acd47bdcd63e0ad8fa4d, type: 3}
+--- !u!4 &7466518946637117433 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 465746, guid: 7abb5fa6bbe4acd47bdcd63e0ad8fa4d,
+    type: 3}
+  m_PrefabInstance: {fileID: 7466518946636655787}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7539455027489667759
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4428612467538244551}
+    m_Modifications:
+    - target: {fileID: 113156, guid: 5424cda683fac0e4ea61e5245094a7e5, type: 3}
+      propertyPath: m_Name
+      value: Christmas_Ball_10 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 461714, guid: 5424cda683fac0e4ea61e5245094a7e5, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 461714, guid: 5424cda683fac0e4ea61e5245094a7e5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.9030075
+      objectReference: {fileID: 0}
+    - target: {fileID: 461714, guid: 5424cda683fac0e4ea61e5245094a7e5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.0723009
+      objectReference: {fileID: 0}
+    - target: {fileID: 461714, guid: 5424cda683fac0e4ea61e5245094a7e5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.17415476
+      objectReference: {fileID: 0}
+    - target: {fileID: 461714, guid: 5424cda683fac0e4ea61e5245094a7e5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 461714, guid: 5424cda683fac0e4ea61e5245094a7e5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 461714, guid: 5424cda683fac0e4ea61e5245094a7e5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 461714, guid: 5424cda683fac0e4ea61e5245094a7e5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6461756, guid: 5424cda683fac0e4ea61e5245094a7e5, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5424cda683fac0e4ea61e5245094a7e5, type: 3}
+--- !u!4 &7539455027489468733 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 461714, guid: 5424cda683fac0e4ea61e5245094a7e5,
+    type: 3}
+  m_PrefabInstance: {fileID: 7539455027489667759}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7653405754251169293
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4428612467538244551}
+    m_Modifications:
+    - target: {fileID: 119890, guid: 998fb6df537612b4b93fd1efbbb9c4a7, type: 3}
+      propertyPath: m_Name
+      value: Christmas_Ball_09 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 488652, guid: 998fb6df537612b4b93fd1efbbb9c4a7, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 488652, guid: 998fb6df537612b4b93fd1efbbb9c4a7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.1296215
+      objectReference: {fileID: 0}
+    - target: {fileID: 488652, guid: 998fb6df537612b4b93fd1efbbb9c4a7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.53692764
+      objectReference: {fileID: 0}
+    - target: {fileID: 488652, guid: 998fb6df537612b4b93fd1efbbb9c4a7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.1904669
+      objectReference: {fileID: 0}
+    - target: {fileID: 488652, guid: 998fb6df537612b4b93fd1efbbb9c4a7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 488652, guid: 998fb6df537612b4b93fd1efbbb9c4a7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 488652, guid: 998fb6df537612b4b93fd1efbbb9c4a7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 488652, guid: 998fb6df537612b4b93fd1efbbb9c4a7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6412108, guid: 998fb6df537612b4b93fd1efbbb9c4a7, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 998fb6df537612b4b93fd1efbbb9c4a7, type: 3}
+--- !u!4 &7653405754251360961 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 488652, guid: 998fb6df537612b4b93fd1efbbb9c4a7,
+    type: 3}
+  m_PrefabInstance: {fileID: 7653405754251169293}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7714670466703922039
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4428612467538244551}
+    m_Modifications:
+    - target: {fileID: 151608, guid: 9524b77da7900e2448a2bbf6302deb30, type: 3}
+      propertyPath: m_Name
+      value: Christmas_Ball_08 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 429842, guid: 9524b77da7900e2448a2bbf6302deb30, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 429842, guid: 9524b77da7900e2448a2bbf6302deb30, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.08551788
+      objectReference: {fileID: 0}
+    - target: {fileID: 429842, guid: 9524b77da7900e2448a2bbf6302deb30, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.0271139
+      objectReference: {fileID: 0}
+    - target: {fileID: 429842, guid: 9524b77da7900e2448a2bbf6302deb30, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.24467945
+      objectReference: {fileID: 0}
+    - target: {fileID: 429842, guid: 9524b77da7900e2448a2bbf6302deb30, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 429842, guid: 9524b77da7900e2448a2bbf6302deb30, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 429842, guid: 9524b77da7900e2448a2bbf6302deb30, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 429842, guid: 9524b77da7900e2448a2bbf6302deb30, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6415420, guid: 9524b77da7900e2448a2bbf6302deb30, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9524b77da7900e2448a2bbf6302deb30, type: 3}
+--- !u!4 &7714670466703760485 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 429842, guid: 9524b77da7900e2448a2bbf6302deb30,
+    type: 3}
+  m_PrefabInstance: {fileID: 7714670466703922039}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7755168408175867180
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4428612467538244551}
+    m_Modifications:
+    - target: {fileID: 107174, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+      propertyPath: m_Name
+      value: Christmas_Ball_05 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 424338, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 424338, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.9655819
+      objectReference: {fileID: 0}
+    - target: {fileID: 424338, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.073741436
+      objectReference: {fileID: 0}
+    - target: {fileID: 424338, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.4015386
+      objectReference: {fileID: 0}
+    - target: {fileID: 424338, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 424338, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 424338, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 424338, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6493394, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7ad324a9f0845a248a5ee8baff2855a7, type: 3}
+--- !u!4 &7755168408175447230 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 424338, guid: 7ad324a9f0845a248a5ee8baff2855a7,
+    type: 3}
+  m_PrefabInstance: {fileID: 7755168408175867180}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7951580471867051571
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4428612467538244551}
+    m_Modifications:
+    - target: {fileID: 178902, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+      propertyPath: m_Name
+      value: Christmas_Ball_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 403440, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 403440, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.49706268
+      objectReference: {fileID: 0}
+    - target: {fileID: 403440, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8790486
+      objectReference: {fileID: 0}
+    - target: {fileID: 403440, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.72827744
+      objectReference: {fileID: 0}
+    - target: {fileID: 403440, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 403440, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 403440, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 403440, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6405188, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+--- !u!4 &7951580471867451843 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 403440, guid: 2b77c0dac663d2f41b92953df12127da,
+    type: 3}
+  m_PrefabInstance: {fileID: 7951580471867051571}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8118773177262536462
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4428612467538244551}
+    m_Modifications:
+    - target: {fileID: 170010, guid: 9d21682eb45dd044a9a0d26d5352f4e2, type: 3}
+      propertyPath: m_Name
+      value: Christmas_Candy_00 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 486130, guid: 9d21682eb45dd044a9a0d26d5352f4e2, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 486130, guid: 9d21682eb45dd044a9a0d26d5352f4e2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.4667759
+      objectReference: {fileID: 0}
+    - target: {fileID: 486130, guid: 9d21682eb45dd044a9a0d26d5352f4e2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.44920945
+      objectReference: {fileID: 0}
+    - target: {fileID: 486130, guid: 9d21682eb45dd044a9a0d26d5352f4e2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.2752333
+      objectReference: {fileID: 0}
+    - target: {fileID: 486130, guid: 9d21682eb45dd044a9a0d26d5352f4e2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.979668
+      objectReference: {fileID: 0}
+    - target: {fileID: 486130, guid: 9d21682eb45dd044a9a0d26d5352f4e2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.20062545
+      objectReference: {fileID: 0}
+    - target: {fileID: 486130, guid: 9d21682eb45dd044a9a0d26d5352f4e2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 486130, guid: 9d21682eb45dd044a9a0d26d5352f4e2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6459240, guid: 9d21682eb45dd044a9a0d26d5352f4e2, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9d21682eb45dd044a9a0d26d5352f4e2, type: 3}
+--- !u!4 &8118773177262579196 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 486130, guid: 9d21682eb45dd044a9a0d26d5352f4e2,
+    type: 3}
+  m_PrefabInstance: {fileID: 8118773177262536462}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8142582693534879415
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4428612467538244551}
+    m_Modifications:
+    - target: {fileID: 140688, guid: 86cca0d98031dba4883c01dbd59f8e2f, type: 3}
+      propertyPath: m_Name
+      value: Christmas_Ball_04 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 422390, guid: 86cca0d98031dba4883c01dbd59f8e2f, type: 3}
+      propertyPath: m_RootOrder
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 422390, guid: 86cca0d98031dba4883c01dbd59f8e2f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.09385109
+      objectReference: {fileID: 0}
+    - target: {fileID: 422390, guid: 86cca0d98031dba4883c01dbd59f8e2f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.63253355
+      objectReference: {fileID: 0}
+    - target: {fileID: 422390, guid: 86cca0d98031dba4883c01dbd59f8e2f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.15523338
+      objectReference: {fileID: 0}
+    - target: {fileID: 422390, guid: 86cca0d98031dba4883c01dbd59f8e2f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422390, guid: 86cca0d98031dba4883c01dbd59f8e2f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 422390, guid: 86cca0d98031dba4883c01dbd59f8e2f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422390, guid: 86cca0d98031dba4883c01dbd59f8e2f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6499414, guid: 86cca0d98031dba4883c01dbd59f8e2f, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 86cca0d98031dba4883c01dbd59f8e2f, type: 3}
+--- !u!4 &8142582693535006529 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 422390, guid: 86cca0d98031dba4883c01dbd59f8e2f,
+    type: 3}
+  m_PrefabInstance: {fileID: 8142582693534879415}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9128332853025362507
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4428612467538244551}
+    m_Modifications:
+    - target: {fileID: 178902, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+      propertyPath: m_Name
+      value: Christmas_Ball_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 403440, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 403440, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.46715164
+      objectReference: {fileID: 0}
+    - target: {fileID: 403440, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8163173
+      objectReference: {fileID: 0}
+    - target: {fileID: 403440, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.24078774
+      objectReference: {fileID: 0}
+    - target: {fileID: 403440, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 403440, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 403440, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 403440, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6405188, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2b77c0dac663d2f41b92953df12127da, type: 3}
+--- !u!4 &9128332853025502651 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 403440, guid: 2b77c0dac663d2f41b92953df12127da,
+    type: 3}
+  m_PrefabInstance: {fileID: 9128332853025362507}
+  m_PrefabAsset: {fileID: 0}

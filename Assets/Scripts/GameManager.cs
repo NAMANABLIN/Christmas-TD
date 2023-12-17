@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.AI.Navigation;
 using UnityEngine;
 using UnityEngine.Serialization;
 
@@ -20,40 +21,52 @@ public class GameManager : MonoBehaviour
     private float _intervalSpawn;
     private int _startValueOfEnemy = 1;             
     private float _enemyFactor = 0.1f;
-    private List<EnemyLogic> _enemies = new List<EnemyLogic>();
+    private Dictionary<int, EnemyLogic> _enemies = new Dictionary<int, EnemyLogic>();
+    private int _snowmanID = 0;
     
     [SerializeField] private PlayerManager _player;
+    [SerializeField] private GameObject _christmasTree;
     [SerializeField] private TextMeshProUGUI _timerText; 
+    [SerializeField] private TextMeshProUGUI _waveText; 
     [SerializeField] private EnemyLogic _snowman;
+    [SerializeField] private RandomizeChristmasTree _randomizeTree;
+    [SerializeField] private NavMeshSurface _navMeshSurface;
 
 
     void Start()
     {
         _currentTime = _chillTime;
-        StartCoroutine(StartSpawnProcess());
         UpdateTimerText();
+        _player.gameObject.SetActive(false);
+        _christmasTree.gameObject.SetActive(false);
+        
+        _navMeshSurface.BuildNavMesh();
+        _player.gameObject.SetActive(true);
+        _christmasTree.gameObject.SetActive(true);
     }
     private void Update()
     {
-        // _currentTime -= Time.deltaTime;
-        //
-        // if (_currentTime < 0)
-        // {
-        //     if (_waveOrChill)
-        //     {
-        //         _waveOrChill = false;
-        //         _currentTime = _chillTime;
-        //     }
-        //     else
-        //     {
-        //         _waveOrChill = true;
-        //         _currentTime = _waveTime;
-        //         waveLevel++;
-        //     }
-        // }
-        if (_enemies.Count == 0)
+        _currentTime -= Time.deltaTime;
+        
+        if (_currentTime < 0)
         {
-            StartCoroutine(StartSpawnProcess());
+            if (_waveOrChill)
+            {
+                _waveOrChill = false;
+                _currentTime = _chillTime;
+            }
+            else
+            {
+                _waveOrChill = true;
+                _currentTime = _waveTime;
+                waveLevel++;
+                // Spawn();
+            }
+        }
+        if (_enemies.Count == 0 && _waveOrChill)
+        {
+            _waveOrChill = false;
+            _currentTime = _chillTime;
         }
         UpdateTimerText();
     }
@@ -89,7 +102,8 @@ public class GameManager : MonoBehaviour
                                (Vector3.forward * Mathf.Sin(randomPI) + Mathf.Cos(randomPI) * Vector3.left);
             var enemy = Instantiate(_snowman, position, Quaternion.identity);
             enemy.Setup(waveLevel, transform);
-            _enemies.Add(enemy);
+            _enemies.Add(_snowmanID, enemy);
+            _snowmanID++;
         }
     }
     

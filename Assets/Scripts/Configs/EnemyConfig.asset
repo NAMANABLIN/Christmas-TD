@@ -17,67 +17,67 @@ MonoBehaviour:
   _healthFactor: 0.1
   _damageFactor: 0.1
   _moveSpeed: 2
-  _rotationSpeed: 20
+  _rotationSpeed: 150
   _maxLevel: 15
   table:
     EnemyDatas:
     - health: 100
       damage: 20
       moveSpeed: 2
-      rotationSpeed: 20
+      rotationSpeed: 150
     - health: 110
       damage: 22
       moveSpeed: 2
-      rotationSpeed: 20
+      rotationSpeed: 150
     - health: 120
       damage: 24
       moveSpeed: 2
-      rotationSpeed: 20
+      rotationSpeed: 150
     - health: 130
       damage: 26
       moveSpeed: 2
-      rotationSpeed: 20
+      rotationSpeed: 150
     - health: 140
       damage: 28
       moveSpeed: 2
-      rotationSpeed: 20
+      rotationSpeed: 150
     - health: 150
       damage: 30
       moveSpeed: 2
-      rotationSpeed: 20
+      rotationSpeed: 150
     - health: 160
       damage: 32
       moveSpeed: 2
-      rotationSpeed: 20
+      rotationSpeed: 150
     - health: 170
       damage: 34
       moveSpeed: 2
-      rotationSpeed: 20
+      rotationSpeed: 150
     - health: 180
       damage: 36
       moveSpeed: 2
-      rotationSpeed: 20
+      rotationSpeed: 150
     - health: 190
       damage: 38
       moveSpeed: 2
-      rotationSpeed: 20
+      rotationSpeed: 150
     - health: 200
       damage: 40
       moveSpeed: 2
-      rotationSpeed: 20
+      rotationSpeed: 150
     - health: 210
       damage: 42
       moveSpeed: 2
-      rotationSpeed: 20
+      rotationSpeed: 150
     - health: 220
       damage: 44
       moveSpeed: 2
-      rotationSpeed: 20
+      rotationSpeed: 150
     - health: 230
       damage: 46
       moveSpeed: 2
-      rotationSpeed: 20
+      rotationSpeed: 150
     - health: 240
       damage: 48
       moveSpeed: 2
-      rotationSpeed: 20
+      rotationSpeed: 150

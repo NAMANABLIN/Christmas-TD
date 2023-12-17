@@ -2,10 +2,11 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PlayerManager : MonoBehaviour
+public class PlayerManager : MonoBehaviour, ITakeDamagable
 {
     public float health = 100f;
     [SerializeField] private float speed = 2f;
+    [SerializeField] private float _health = 2f;
     private float _startSpeed;
     private float _weapon;
     private float _scrollSpeed = 10.0f; // Скорость прокрутки колесика мыши
@@ -71,5 +72,11 @@ public class PlayerManager : MonoBehaviour
 
         var worldDirection = _rb.transform.TransformDirection(move);
         _rb.velocity = worldDirection*speed*Time.fixedDeltaTime;
+    }
+
+    public void TakeDamage(int damage)
+    {
+        _health -= damage;
+        Debug.Log(damage);
     }
 }

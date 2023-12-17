@@ -6,6 +6,7 @@ using Random = UnityEngine.Random;
 public class RandomizeChristmasTree : MonoBehaviour
 {
     [SerializeField] private GameObject _objectPrefab; // Префаб объекта, который будет расставлен
+    [SerializeField] private GameObject _treesParent; // Префаб объекта, который будет расставлен
     
     [SerializeField] private int numObjects = 50;
     [SerializeField] private Transform _center;
@@ -28,7 +29,6 @@ public class RandomizeChristmasTree : MonoBehaviour
         for (int j = 0; j < _numberOfSpawnAreas; j++)
         {
             int countOfTrees = numObjects * (j + 1 + j * _constantDensity);
-            Debug.Log(countOfTrees);
             for (int i = 0; i < countOfTrees; i++)
             {
                 float randomPI = Random.Range(0, Mathf.PI);
@@ -36,7 +36,7 @@ public class RandomizeChristmasTree : MonoBehaviour
                 Vector3 position = (_emptyArea + randomAreaDistance + _spawnRadius*(j+1)) *
                                    (Vector3.forward * Mathf.Sin(randomPI) + Mathf.Cos(randomPI) * Vector3.left);
 
-                Instantiate(_objectPrefab, position, Quaternion.Euler(0f, Random.Range(0f, 360f), 0f));
+                Instantiate(_objectPrefab, position, Quaternion.Euler(0f, Random.Range(0f, 360f), 0f), _treesParent.transform);
             }
         }
     }

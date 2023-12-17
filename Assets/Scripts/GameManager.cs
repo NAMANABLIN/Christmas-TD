@@ -15,18 +15,20 @@ public class GameManager : MonoBehaviour
     private float _chillTime = 1f; // время на отдых
     private float _currentTime;
 
+    [Header("SpawnEnemy")]
     [SerializeField] private float _maxArea = 6;
     [SerializeField] private float _spawnDistance = 15;
-    
     private float _intervalSpawn;
-    private int _startValueOfEnemy = 1;             
-    private float _enemyFactor = 0.1f;
+    [SerializeField] private int _startValueOfEnemy = 10;             
+    [SerializeField] private float _enemyFactor = 0.1f;
     private Dictionary<int, EnemyLogic> _enemies = new Dictionary<int, EnemyLogic>();
     private int _snowmanID = 0;
     
+    [Space]
     [SerializeField] private PlayerManager _player;
     [SerializeField] private GameObject _christmasTree;
     [SerializeField] private GameObject _mountains;
+    [SerializeField] private GameObject _enemiesParent;
     
     [SerializeField] private TextMeshProUGUI _timerText; 
     [SerializeField] private TextMeshProUGUI _waveText; 
@@ -42,14 +44,14 @@ public class GameManager : MonoBehaviour
                                                  
         
         _player.gameObject.SetActive(false);
-        _christmasTree.gameObject.SetActive(false);
+        // _christmasTree.gameObject.SetActive(false);
         _mountains.gameObject.SetActive(false);
         
         _randomizeTree.Run();
         _navMeshSurface.BuildNavMesh();
         
         _player.gameObject.SetActive(true);
-        _christmasTree.gameObject.SetActive(true);
+        // _christmasTree.gameObject.SetActive(true);
         _mountains.gameObject.SetActive(true);
 
     }
@@ -69,7 +71,7 @@ public class GameManager : MonoBehaviour
                 _waveOrChill = true;
                 _currentTime = _waveTime;
                 waveLevel++;
-                // Spawn();
+                Spawn();
             }
         }
         if (_enemies.Count == 0 && _waveOrChill)
@@ -102,6 +104,7 @@ public class GameManager : MonoBehaviour
     void Spawn()
     {
         int count = (int)(_startValueOfEnemy + (waveLevel-1)*_startValueOfEnemy*_enemyFactor);
+        Debug.Log(count);
         for (int i = 0; i < count; i++) 
         {
             
@@ -109,19 +112,19 @@ public class GameManager : MonoBehaviour
             float randomAreaDistance = Random.Range(0, _maxArea);
             Vector3 position = (_spawnDistance + randomAreaDistance) *
                                (Vector3.forward * Mathf.Sin(randomPI) + Mathf.Cos(randomPI) * Vector3.left);
-            var enemy = Instantiate(_snowman, position, Quaternion.identity);
-            enemy.Setup(waveLevel, transform);
+            var enemy = Instantiate(_snowman, position, Quaternion.identity, _enemiesParent.transform);
+            enemy.Setup(waveLevel, _christmasTree.transform);
             _enemies.Add(_snowmanID, enemy);
             
             _snowmanID++;
         }
     }
     
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position + Vector3.up * 0.01f, _spawnDistance);
-        Gizmos.color = Color.black;
-        Gizmos.DrawWireSphere(transform.position + Vector3.up * 0.01f, _spawnDistance+_maxArea);
-    }
+    // private void OnDrawGizmos()
+    // {
+    //     Gizmos.color = Color.red;
+    //     Gizmos.DrawWireSphere(transform.position + Vector3.up * 0.01f, _spawnDistance);
+    //     Gizmos.color = Color.black;
+    //     Gizmos.DrawWireSphere(transform.position + Vector3.up * 0.01f, _spawnDistance+_maxArea);
+    // }
 }

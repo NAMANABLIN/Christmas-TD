@@ -9,7 +9,9 @@ public class EnemyLogic : MonoBehaviour
     private int _damage = 20;
     [SerializeField] private EnemyConfig _config;
     [SerializeField] private NavMeshAgent Agent;
-    [SerializeField] private Transform _target;
+    [SerializeField] private Animator _animationEnemy;
+    [SerializeField] private CourierTarget _courierTarget;
+    private Transform _target;
     private GameManager _gameManager;
 
     public void Setup(int level, Transform target)
@@ -27,10 +29,11 @@ public class EnemyLogic : MonoBehaviour
     {
         Agent.SetDestination(_target.position);
     }
-
-    void Attack()
+    
+    
+    public void Attack()
     {
-        
+        _courierTarget._currentTarget.TakeDamage(_damage);
     }
 
     public void GetDamage(int damage)

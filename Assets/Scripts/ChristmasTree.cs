@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Tree : MonoBehaviour
+public class ChristmasTree : MonoBehaviour, ITakeDamagable
 {
-    public float TreeHealth = 500f;
+    public float _health = 500f;
     [SerializeField] private Slider _slider;
 
     // Start is called before the first frame update
@@ -17,6 +17,12 @@ public class Tree : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        _slider.value = TreeHealth / 500;
+        _slider.value = _health / 500;
+    }
+
+    public void TakeDamage(int damage)
+    {
+        _health -= damage;
+        Debug.Log(_health);
     }
 }

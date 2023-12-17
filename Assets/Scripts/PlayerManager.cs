@@ -1,9 +1,10 @@
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerManager : MonoBehaviour
 {
-    public int health = 100;
+    public float health = 100f;
     [SerializeField] private float speed = 2f;
     private float _startSpeed;
     private float _weapon;
@@ -11,6 +12,7 @@ public class PlayerManager : MonoBehaviour
     private int _currentValue = 1; // Текущее значение
     
     [SerializeField] private Rigidbody _rb;
+    [SerializeField] private Slider _slider;
 
     private void Awake()
     {
@@ -48,6 +50,8 @@ public class PlayerManager : MonoBehaviour
         }
 
         // Debug.Log("Current Value: " + _currentValue);
+
+        _slider.value = health / 100;
     }
 
     private void FixedUpdate()

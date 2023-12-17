@@ -26,6 +26,8 @@ public class GameManager : MonoBehaviour
     
     [SerializeField] private PlayerManager _player;
     [SerializeField] private GameObject _christmasTree;
+    [SerializeField] private GameObject _mountains;
+    
     [SerializeField] private TextMeshProUGUI _timerText; 
     [SerializeField] private TextMeshProUGUI _waveText; 
     [SerializeField] private EnemyLogic _snowman;
@@ -37,12 +39,19 @@ public class GameManager : MonoBehaviour
     {
         _currentTime = _chillTime;
         UpdateTimerText();
+                                                 
+        
         _player.gameObject.SetActive(false);
         _christmasTree.gameObject.SetActive(false);
+        _mountains.gameObject.SetActive(false);
         
+        _randomizeTree.Run();
         _navMeshSurface.BuildNavMesh();
+        
         _player.gameObject.SetActive(true);
         _christmasTree.gameObject.SetActive(true);
+        _mountains.gameObject.SetActive(true);
+
     }
     private void Update()
     {
@@ -103,6 +112,7 @@ public class GameManager : MonoBehaviour
             var enemy = Instantiate(_snowman, position, Quaternion.identity);
             enemy.Setup(waveLevel, transform);
             _enemies.Add(_snowmanID, enemy);
+            
             _snowmanID++;
         }
     }

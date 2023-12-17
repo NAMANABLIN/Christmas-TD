@@ -15,9 +15,12 @@ public class RandomizeChristmasTree : MonoBehaviour
     [SerializeField] private int _numberOfSpawnAreas = 5;
     [SerializeField] private int _constantDensity = 20;
     private GameObject[] trees;
-    void Start()
+
+
+    public void Run()
     {
         GenerateObjectsInArea();
+
     }
 
     void GenerateObjectsInArea()

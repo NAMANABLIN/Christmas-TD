@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6279244343743353790}
   - component: {fileID: 5969621560585641434}
   - component: {fileID: 2860422383583202731}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Body_Stomach
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 8820543059906527856}
   - component: {fileID: 8232409688430617961}
   - component: {fileID: 2907385159540886431}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Body_Lower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -176,13 +176,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4506995746008840043}
   - component: {fileID: 2657115642065954182}
-  - component: {fileID: 817163686802102550}
-  - component: {fileID: 1976481706552378195}
-  - component: {fileID: 8121415758505208024}
-  - component: {fileID: 6264395942614013636}
-  - component: {fileID: 1277382448434572933}
-  m_Layer: 0
-  m_Name: Snow Man_01
+  m_Layer: 3
+  m_Name: AnimationSnowMan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -230,116 +225,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!136 &817163686802102550
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 413039551229528382}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2.7
-  m_Height: 12.93
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!136 &1976481706552378195
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 413039551229528382}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2.37
-  m_Height: 9.99
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &8121415758505208024
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 413039551229528382}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 80
-  m_CollisionDetection: 0
---- !u!195 &6264395942614013636
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 413039551229528382}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 2.96
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 1
-  m_BaseOffset: 0
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
---- !u!114 &1277382448434572933
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 413039551229528382}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ebf0271dad8d1d449090ee4277b1ad5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _config: {fileID: 11400000, guid: 85db72b8f6b57b14dba4271d8d844fab, type: 2}
-  Agent: {fileID: 6264395942614013636}
-  _target: {fileID: 0}
 --- !u!1 &2385977131166007035
 GameObject:
   m_ObjectHideFlags: 0
@@ -351,7 +236,7 @@ GameObject:
   - component: {fileID: 307671474112083045}
   - component: {fileID: 2102308138226511460}
   - component: {fileID: 6269627588051074059}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Hat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -434,7 +319,7 @@ GameObject:
   - component: {fileID: 4015969428045435314}
   - component: {fileID: 9046856455997361358}
   - component: {fileID: 6506523710009093549}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -517,7 +402,7 @@ GameObject:
   - component: {fileID: 1647190787171941112}
   - component: {fileID: 4475337876024602779}
   - component: {fileID: 8585182219981815704}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: L_Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -600,7 +485,7 @@ GameObject:
   - component: {fileID: 4996403594834743957}
   - component: {fileID: 7561896000699683957}
   - component: {fileID: 7302549564677906598}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: R_Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}

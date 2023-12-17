@@ -10,6 +10,7 @@ public class EnemyLogic : MonoBehaviour
     [SerializeField] private EnemyConfig _config;
     [SerializeField] private NavMeshAgent Agent;
     [SerializeField] private Transform _target;
+    private GameManager _gameManager;
 
     public void Setup(int level, Transform target)
     {
@@ -31,5 +32,19 @@ public class EnemyLogic : MonoBehaviour
     {
         
     }
-    
+
+    public void GetDamage(int damage)
+    {
+        _health -= damage;
+    }
+
+    void Death()
+    {
+        
+    }
+
+    void CheckIsLife()
+    {
+        
+    }
 }

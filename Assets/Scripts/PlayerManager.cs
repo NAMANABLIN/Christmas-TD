@@ -13,7 +13,6 @@ public class PlayerManager : MonoBehaviour, ITakeDamagable
     private int _currentValue = 1; // Текущее значение
     
     [SerializeField] private Rigidbody _rb;
-    [SerializeField] private Slider _slider;
 
     private void Awake()
     {
@@ -50,9 +49,7 @@ public class PlayerManager : MonoBehaviour, ITakeDamagable
             Debug.Log(3);
         }
 
-        // Debug.Log("Current Value: " + _currentValue);
-
-        _slider.value = health / 100;
+        // Debug.Log("Current Value: " + _currentValue)
     }
 
     private void FixedUpdate()

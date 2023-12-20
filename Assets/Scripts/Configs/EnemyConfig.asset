@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: EnemyConfig
   m_EditorClassIdentifier: 
   _health: 100
-  _damage: 20
+  _damage: 5
   _healthFactor: 0.1
   _damageFactor: 0.1
   _moveSpeed: 2
@@ -22,62 +22,62 @@ MonoBehaviour:
   table:
     EnemyDatas:
     - health: 100
-      damage: 20
+      damage: 5
       moveSpeed: 2
       rotationSpeed: 150
     - health: 110
-      damage: 22
+      damage: 5
       moveSpeed: 2
       rotationSpeed: 150
     - health: 120
-      damage: 24
+      damage: 6
       moveSpeed: 2
       rotationSpeed: 150
     - health: 130
-      damage: 26
+      damage: 6
       moveSpeed: 2
       rotationSpeed: 150
     - health: 140
-      damage: 28
+      damage: 7
       moveSpeed: 2
       rotationSpeed: 150
     - health: 150
-      damage: 30
+      damage: 7
       moveSpeed: 2
       rotationSpeed: 150
     - health: 160
-      damage: 32
+      damage: 8
       moveSpeed: 2
       rotationSpeed: 150
     - health: 170
-      damage: 34
+      damage: 8
       moveSpeed: 2
       rotationSpeed: 150
     - health: 180
-      damage: 36
+      damage: 9
       moveSpeed: 2
       rotationSpeed: 150
     - health: 190
-      damage: 38
+      damage: 9
       moveSpeed: 2
       rotationSpeed: 150
     - health: 200
-      damage: 40
+      damage: 10
       moveSpeed: 2
       rotationSpeed: 150
     - health: 210
-      damage: 42
+      damage: 10
       moveSpeed: 2
       rotationSpeed: 150
     - health: 220
-      damage: 44
+      damage: 11
       moveSpeed: 2
       rotationSpeed: 150
     - health: 230
-      damage: 46
+      damage: 11
       moveSpeed: 2
       rotationSpeed: 150
     - health: 240
-      damage: 48
+      damage: 12
       moveSpeed: 2
       rotationSpeed: 150

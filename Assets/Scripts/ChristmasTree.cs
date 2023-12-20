@@ -17,7 +17,6 @@ public class ChristmasTree : MonoBehaviour, ITakeDamagable
     // Update is called once per frame
     void Update()
     {
-        _slider.value = _health / 500;
     }
 
     public void TakeDamage(int damage)

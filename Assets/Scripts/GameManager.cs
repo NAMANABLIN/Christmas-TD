@@ -44,14 +44,14 @@ public class GameManager : MonoBehaviour
                                                  
         
         _player.gameObject.SetActive(false);
-        // _christmasTree.gameObject.SetActive(false);
+        _christmasTree.gameObject.SetActive(false);
         _mountains.gameObject.SetActive(false);
         
         _randomizeTree.Run();
         _navMeshSurface.BuildNavMesh();
         
         _player.gameObject.SetActive(true);
-        // _christmasTree.gameObject.SetActive(true);
+        _christmasTree.gameObject.SetActive(true);
         _mountains.gameObject.SetActive(true);
 
     }
